@@ -1,0 +1,1386 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>譜面テーブル</title>
+    <style>
+        /* CSSで見栄えを整える */
+        body {
+            font-family: sans-serif;
+            padding: 2em;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse; /* セルの境界線を一本化 */
+            margin-top: 20px;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2;
+            cursor: pointer; /* クリックできることを示す */
+            user-select: none; /* テキスト選択を無効化 */
+        }
+        th:hover {
+            background-color: #e6e6e6;
+        }
+        /* ソート方向を示す矢印 */
+        th.sort-asc::after {
+            content: ' ▲';
+        }
+        th.sort-desc::after {
+            content: ' ▼';
+        }
+    </style>
+</head>
+<body>
+<h1>☆８</h1><table class="sortable-table">
+        <thead>
+            <tr>
+                <th data-column-index="0">曲名</th>
+                <th data-column-index="1">作曲</th>
+                <th data-column-index="2">難易度</th>
+                <th data-column-index="3">ノーツ数</th>
+                <th data-column-index="4">皿枚数</th>
+                <th data-column-index="5">皿割合</th>
+                <th data-column-index="6">皿度</th>
+            </tr>
+        </thead>
+        <tbody>
+	
+			<tr>
+                <td>rottel-da-sun</td>
+                <td>sampling masters MEGA</td>
+                <td>HYPER</td>
+                <td>692</td>
+                <td>124</td>
+				<td></td>
+				<td>19.5</td>
+			</tr>
+		
+			<tr>
+                <td>route 80s</td>
+                <td>sampling masters MEGA</td>
+                <td>HYPER</td>
+                <td>614</td>
+                <td>122</td>
+				<td></td>
+				<td>24.6</td>
+			</tr>
+		
+			<tr>
+                <td>Halfway of promise</td>
+                <td>Yu Takami feat. Shihori Nakane</td>
+                <td>HYPER</td>
+                <td>781</td>
+                <td>136</td>
+				<td></td>
+				<td>24.6</td>
+			</tr>
+		
+			<tr>
+                <td>WAR GAME</td>
+                <td>ASLETICS</td>
+                <td>HYPER</td>
+                <td>789</td>
+                <td>165</td>
+				<td></td>
+				<td>32.2</td>
+			</tr>
+		
+			<tr>
+                <td>Close my Eyes for Me</td>
+                <td>D-crew feat.DENNIS GUNN(DJ Yoshitaka SCRATCHING)</td>
+                <td>HYPER</td>
+                <td>755</td>
+                <td>114</td>
+				<td></td>
+				<td>20.1</td>
+			</tr>
+		
+			<tr>
+                <td>Catch Me</td>
+                <td>DJ Yoshitaka feat. ERi</td>
+                <td>HYPER</td>
+                <td>678</td>
+                <td>117</td>
+				<td></td>
+				<td>23.6</td>
+			</tr>
+		
+			<tr>
+                <td>Do it!! Do it!!</td>
+                <td>Kraken</td>
+                <td>NORMAL</td>
+                <td>538</td>
+                <td>108</td>
+				<td></td>
+				<td>20.8</td>
+			</tr>
+		
+			<tr>
+                <td>Just a Little Smile</td>
+                <td>Sota Fujimori</td>
+                <td>HYPER</td>
+                <td>683</td>
+                <td>140</td>
+				<td></td>
+				<td>24.6</td>
+			</tr>
+		
+			<tr>
+                <td>サヨナラ・ヘヴン</td>
+                <td>猫叉Master</td>
+                <td>ANOTHER</td>
+                <td>855</td>
+                <td>158</td>
+				<td></td>
+				<td>22.0</td>
+			</tr>
+		
+			<tr>
+                <td>sakura storm</td>
+                <td>Ryu☆</td>
+                <td>HYPER</td>
+                <td>675</td>
+                <td>105</td>
+				<td></td>
+				<td>15.3</td>
+			</tr>
+		
+			<tr>
+                <td>ATHER</td>
+                <td>TAG underground</td>
+                <td>HYPER</td>
+                <td>833</td>
+                <td>131</td>
+				<td></td>
+				<td>18.1</td>
+			</tr>
+		
+			<tr>
+                <td>廿</td>
+                <td>DJ TECHNORCH</td>
+                <td>HYPER</td>
+                <td>890</td>
+                <td>156</td>
+				<td></td>
+				<td>21.7</td>
+			</tr>
+		
+			<tr>
+                <td>とろぴかる倶楽部</td>
+                <td>HALFBY</td>
+                <td>HYPER</td>
+                <td>755</td>
+                <td>160</td>
+				<td></td>
+				<td>25.0</td>
+			</tr>
+		</tbody></table><h1>☆９</h1><table class="sortable-table">
+        <thead>
+            <tr>
+                <th data-column-index="0">曲名</th>
+                <th data-column-index="1">作曲</th>
+                <th data-column-index="2">難易度</th>
+                <th data-column-index="3">ノーツ数</th>
+                <th data-column-index="4">皿枚数</th>
+                <th data-column-index="5">皿割合</th>
+                <th data-column-index="6">皿度</th>
+            </tr>
+        </thead>
+        <tbody>
+	
+			<tr>
+                <td>CHECKING YOU OUT</td>
+                <td>good-cool feat. JP Miles</td>
+                <td>HYPER</td>
+                <td>481</td>
+                <td>205</td>
+				<td></td>
+				<td>90.3</td>
+			</tr>
+		
+			<tr>
+                <td>route 80s</td>
+                <td>sampling masters MEGA</td>
+                <td>ANOTHER</td>
+                <td>766</td>
+                <td>120</td>
+				<td></td>
+				<td>20.7</td>
+			</tr>
+		
+			<tr>
+                <td>Somebody Like You</td>
+                <td>good-cool</td>
+                <td>ANOTHER</td>
+                <td>933</td>
+                <td>158</td>
+				<td></td>
+				<td>29.0</td>
+			</tr>
+		
+			<tr>
+                <td>Close my Eyes for Me</td>
+                <td>D-crew feat.DENNIS GUNN(DJ Yoshitaka SCRATCHING)</td>
+                <td>ANOTHER</td>
+                <td>948</td>
+                <td>163</td>
+				<td></td>
+				<td>49.5</td>
+			</tr>
+		
+			<tr>
+                <td>Watch out!!</td>
+                <td>MAD Sequence*</td>
+                <td>ANOTHER</td>
+                <td>837</td>
+                <td>251</td>
+				<td></td>
+				<td>53.3</td>
+			</tr>
+		
+			<tr>
+                <td>Digitank System</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>HYPER</td>
+                <td>815</td>
+                <td>251</td>
+				<td></td>
+				<td>78.2</td>
+			</tr>
+		
+			<tr>
+                <td>"naughty girl@Queens Palace"</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>HYPER</td>
+                <td>869</td>
+                <td>229</td>
+				<td></td>
+				<td>37.1</td>
+			</tr>
+		
+			<tr>
+                <td>Bounce Bounce Bounce</td>
+                <td>kors k feat.Kanata Okajima＆楽天斎</td>
+                <td>HYPER</td>
+                <td>909</td>
+                <td>141</td>
+				<td></td>
+				<td>32.4</td>
+			</tr>
+		
+			<tr>
+                <td>Watch Out Pt.2</td>
+                <td>DJ Mass MAD Izm* VS. DJ Yoshitaka</td>
+                <td>HYPER</td>
+                <td>1029</td>
+                <td>303</td>
+				<td></td>
+				<td>56.1</td>
+			</tr>
+		
+			<tr>
+                <td>Rave*it!! Rave*it!!</td>
+                <td>機龍</td>
+                <td>HYPER</td>
+                <td>863</td>
+                <td>138</td>
+				<td></td>
+				<td>22.4</td>
+			</tr>
+		
+			<tr>
+                <td>Routing</td>
+                <td>かめりあ</td>
+                <td>HYPER</td>
+                <td>860</td>
+                <td>136</td>
+				<td></td>
+				<td>19.3</td>
+			</tr>
+		
+			<tr>
+                <td>Beat Juggling Mix</td>
+                <td>Hommarju</td>
+                <td>HYPER</td>
+                <td>837</td>
+                <td>207</td>
+				<td></td>
+				<td>40.0</td>
+			</tr>
+		
+			<tr>
+                <td>SAMURAI-Scramble</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>HYPER</td>
+                <td>865</td>
+                <td>336</td>
+				<td></td>
+				<td>50.3</td>
+			</tr>
+		
+			<tr>
+                <td>?影</td>
+                <td>RoughSkreamZ feat.楽天斎</td>
+                <td>HYPER</td>
+                <td>723</td>
+                <td>172</td>
+				<td></td>
+				<td>30.0</td>
+			</tr>
+		</tbody></table><h1>☆10</h1><table class="sortable-table">
+        <thead>
+            <tr>
+                <th data-column-index="0">曲名</th>
+                <th data-column-index="1">作曲</th>
+                <th data-column-index="2">難易度</th>
+                <th data-column-index="3">ノーツ数</th>
+                <th data-column-index="4">皿枚数</th>
+                <th data-column-index="5">皿割合</th>
+                <th data-column-index="6">皿度</th>
+            </tr>
+        </thead>
+        <tbody>
+	
+			<tr>
+                <td>5.1.1.</td>
+                <td>dj nagureo</td>
+                <td>ANOTHER</td>
+                <td>786</td>
+                <td>161</td>
+				<td></td>
+				<td>24.7</td>
+			</tr>
+		
+			<tr>
+                <td>SWEET LAB</td>
+                <td>DJ SIMON</td>
+                <td>ANOTHER</td>
+                <td>692</td>
+                <td>156</td>
+				<td></td>
+				<td>33.1</td>
+			</tr>
+		
+			<tr>
+                <td>Buffalo</td>
+                <td>good-cool feat.Hideo Suwa</td>
+                <td>ANOTHER</td>
+                <td>932</td>
+                <td>120</td>
+				<td></td>
+				<td>27.2</td>
+			</tr>
+		
+			<tr>
+                <td>WAR GAME</td>
+                <td>ASLETICS</td>
+                <td>ANOTHER</td>
+                <td>1077</td>
+                <td>198</td>
+				<td></td>
+				<td>35.4</td>
+			</tr>
+		
+			<tr>
+                <td>ADVANCE</td>
+                <td>SLAKE</td>
+                <td>ANOTHER</td>
+                <td>818</td>
+                <td>103</td>
+				<td></td>
+				<td>22.3</td>
+			</tr>
+		
+			<tr>
+                <td>Really Love</td>
+                <td>大部真由美</td>
+                <td>ANOTHER</td>
+                <td>898</td>
+                <td>189</td>
+				<td></td>
+				<td>42.3</td>
+			</tr>
+		
+			<tr>
+                <td>Feedback</td>
+                <td>Audio Highs</td>
+                <td>ANOTHER</td>
+                <td>1010</td>
+                <td>134</td>
+				<td></td>
+				<td>23.0</td>
+			</tr>
+		
+			<tr>
+                <td>オレはビートマニア！お前は何マニア？</td>
+                <td>DANCE☆MAN</td>
+                <td>ANOTHER</td>
+                <td>873</td>
+                <td>117</td>
+				<td></td>
+				<td>24.0</td>
+			</tr>
+		
+			<tr>
+                <td>Concertino in Blue</td>
+                <td>佐々木博史</td>
+                <td>HYPER</td>
+                <td>915</td>
+                <td>149</td>
+				<td></td>
+				<td>16.3</td>
+			</tr>
+		
+			<tr>
+                <td>FIRE FIRE</td>
+                <td>StripE</td>
+                <td>HYPER</td>
+                <td>927</td>
+                <td>145</td>
+				<td></td>
+				<td>17.7</td>
+			</tr>
+		
+			<tr>
+                <td>bass 2 bass</td>
+                <td>Ryu☆</td>
+                <td>ANOTHER</td>
+                <td>970</td>
+                <td>248</td>
+				<td></td>
+				<td>51.3</td>
+			</tr>
+		
+			<tr>
+                <td>Red. by Full Metal Jacket</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>HYPER</td>
+                <td>1062</td>
+                <td>350</td>
+				<td></td>
+				<td>50.3</td>
+			</tr>
+		
+			<tr>
+                <td>灼熱Beach Side Bunny</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>HYPER</td>
+                <td>1025</td>
+                <td>418</td>
+				<td></td>
+				<td>75.7</td>
+			</tr>
+		
+			<tr>
+                <td>BLACK.by X-Cross Fade</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>HYPER</td>
+                <td>1111</td>
+                <td>389</td>
+				<td></td>
+				<td>63.4</td>
+			</tr>
+		
+			<tr>
+                <td>Snake Stick</td>
+                <td>DJ Yoshitaka VS. DJ Mass MAD Izm*</td>
+                <td>HYPER</td>
+                <td>1067</td>
+                <td>338</td>
+				<td></td>
+				<td>57.6</td>
+			</tr>
+		
+			<tr>
+                <td>Plan 8</td>
+                <td>Ryu☆</td>
+                <td>HYPER</td>
+                <td>1147</td>
+                <td>192</td>
+				<td></td>
+				<td>24.4</td>
+			</tr>
+		
+			<tr>
+                <td>廿</td>
+                <td>DJ TECHNORCH</td>
+                <td>ANOTHER</td>
+                <td>1215</td>
+                <td>166</td>
+				<td></td>
+				<td>21.2</td>
+			</tr>
+		
+			<tr>
+                <td>Dynamite</td>
+                <td>USAO</td>
+                <td>HYPER</td>
+                <td>1246</td>
+                <td>246</td>
+				<td></td>
+				<td>37.7</td>
+			</tr>
+		
+			<tr>
+                <td>NO LIMIT -オレ達に限界は無い-</td>
+                <td>SUPER STAR 満-MITSURU- vs. 伝説のダンサー マイク</td>
+                <td>ANOTHER</td>
+                <td>1148</td>
+                <td>191</td>
+				<td></td>
+				<td>25.9</td>
+			</tr>
+		
+			<tr>
+                <td>199024club -Re:BounceKiller-</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>HYPER</td>
+                <td>873</td>
+                <td>320</td>
+				<td></td>
+				<td>67.7</td>
+			</tr>
+		</tbody></table><h1>☆11</h1><table class="sortable-table">
+        <thead>
+            <tr>
+                <th data-column-index="0">曲名</th>
+                <th data-column-index="1">作曲</th>
+                <th data-column-index="2">難易度</th>
+                <th data-column-index="3">ノーツ数</th>
+                <th data-column-index="4">皿枚数</th>
+                <th data-column-index="5">皿割合</th>
+                <th data-column-index="6">皿度</th>
+            </tr>
+        </thead>
+        <tbody>
+	
+			<tr>
+                <td>CHECKING YOU OUT</td>
+                <td>good-cool feat. JP Miles</td>
+                <td>ANOTHER</td>
+                <td>700</td>
+                <td>205</td>
+				<td></td>
+				<td>62.0</td>
+			</tr>
+		
+			<tr>
+                <td>Buffalo</td>
+                <td>good-cool feat.Hideo Suwa</td>
+                <td>LEGGENDARIA</td>
+                <td>1287</td>
+                <td>147</td>
+				<td></td>
+				<td>26.7</td>
+			</tr>
+		
+			<tr>
+                <td>Halfway of promise</td>
+                <td>Yu Takami feat. Shihori Nakane</td>
+                <td>ANOTHER</td>
+                <td>940</td>
+                <td>208</td>
+				<td></td>
+				<td>45.3</td>
+			</tr>
+		
+			<tr>
+                <td>SWEETEST SAVAGE</td>
+                <td>ASLETICS</td>
+                <td>ANOTHER</td>
+                <td>930</td>
+                <td>181</td>
+				<td></td>
+				<td>37.7</td>
+			</tr>
+		
+			<tr>
+                <td>Wonder Bullfighter</td>
+                <td>Twin AmadeuS</td>
+                <td>ANOTHER</td>
+                <td>1062</td>
+                <td>241</td>
+				<td></td>
+				<td>55.0</td>
+			</tr>
+		
+			<tr>
+                <td>ラクエン</td>
+                <td>Chonan Chiharu</td>
+                <td>ANOTHER</td>
+                <td>1034</td>
+                <td>231</td>
+				<td></td>
+				<td>44.1</td>
+			</tr>
+		
+			<tr>
+                <td>Sense 2007</td>
+                <td>good-cool</td>
+                <td>HYPER</td>
+                <td>1179</td>
+                <td>175</td>
+				<td></td>
+				<td>21.0</td>
+			</tr>
+		
+			<tr>
+                <td>Digitank System</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>ANOTHER</td>
+                <td>1096</td>
+                <td>264</td>
+				<td></td>
+				<td>68.7</td>
+			</tr>
+		
+			<tr>
+                <td>Just a Little Smile</td>
+                <td>Sota Fujimori</td>
+                <td>ANOTHER</td>
+                <td>1272</td>
+                <td>256</td>
+				<td></td>
+				<td>39.6</td>
+			</tr>
+		
+			<tr>
+                <td>"naughty girl@Queens Palace"</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>LEGGENDARIA</td>
+                <td>1380</td>
+                <td>287</td>
+				<td></td>
+				<td>47.8</td>
+			</tr>
+		
+			<tr>
+                <td>"naughty girl@Queens Palace"</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>ANOTHER</td>
+                <td>1088</td>
+                <td>292</td>
+				<td></td>
+				<td>55.1</td>
+			</tr>
+		
+			<tr>
+                <td>Hydrogen Blueback</td>
+                <td>MAD CHILD</td>
+                <td>LEGGENDARIA</td>
+                <td>1241</td>
+                <td>376</td>
+				<td></td>
+				<td>61.4</td>
+			</tr>
+		
+			<tr>
+                <td>Bounce Bounce Bounce</td>
+                <td>kors k feat.Kanata Okajima＆楽天斎</td>
+                <td>ANOTHER</td>
+                <td>1293</td>
+                <td>171</td>
+				<td></td>
+				<td>33.5</td>
+			</tr>
+		
+			<tr>
+                <td>カジノファイヤーことみちゃん</td>
+                <td>ARM feat. 山本椛＋Brasscapsule</td>
+                <td>ANOTHER</td>
+                <td>1271</td>
+                <td>242</td>
+				<td></td>
+				<td>27.9</td>
+			</tr>
+		
+			<tr>
+                <td>BRAINSTORM</td>
+                <td>Hardcore United Tokyo(teranoid &amp; DJ TECHNORCH)</td>
+                <td>ANOTHER</td>
+                <td>1449</td>
+                <td>188</td>
+				<td></td>
+				<td>25.0</td>
+			</tr>
+		
+			<tr>
+                <td>Funny shuffle</td>
+                <td>猫叉Master+</td>
+                <td>ANOTHER</td>
+                <td>1199</td>
+                <td>131</td>
+				<td></td>
+				<td>21.3</td>
+			</tr>
+		
+			<tr>
+                <td>Insane Techniques</td>
+                <td>kors k</td>
+                <td>ANOTHER</td>
+                <td>1263</td>
+                <td>173</td>
+				<td></td>
+				<td>23.2</td>
+			</tr>
+		
+			<tr>
+                <td>Overload Frontier</td>
+                <td>DJ Shimamura</td>
+                <td>ANOTHER</td>
+                <td>1336</td>
+                <td>237</td>
+				<td></td>
+				<td>25.0</td>
+			</tr>
+		
+			<tr>
+                <td>VOX UP</td>
+                <td>sampling masters MEGA vs 青龍</td>
+                <td>HYPER</td>
+                <td>1473</td>
+                <td>207</td>
+				<td></td>
+				<td>22.6</td>
+			</tr>
+		
+			<tr>
+                <td>とろぴかる倶楽部</td>
+                <td>HALFBY</td>
+                <td>ANOTHER</td>
+                <td>1154</td>
+                <td>245</td>
+				<td></td>
+				<td>32.0</td>
+			</tr>
+		
+			<tr>
+                <td>ベィスドロップ・フリークス</td>
+                <td>かめりあ feat. ななひら</td>
+                <td>LEGGENDARIA</td>
+                <td>1275</td>
+                <td>344</td>
+				<td></td>
+				<td>48.6</td>
+			</tr>
+		
+			<tr>
+                <td>Routing</td>
+                <td>かめりあ</td>
+                <td>ANOTHER</td>
+                <td>1323</td>
+                <td>195</td>
+				<td></td>
+				<td>32.0</td>
+			</tr>
+		
+			<tr>
+                <td>STARLIGHT DANCEHALL</td>
+                <td>P*Light</td>
+                <td>ANOTHER</td>
+                <td>1342</td>
+                <td>147</td>
+				<td></td>
+				<td>21.8</td>
+			</tr>
+		
+			<tr>
+                <td>Uh-Oh</td>
+                <td>kors k</td>
+                <td>ANOTHER</td>
+                <td>1228</td>
+                <td>284</td>
+				<td></td>
+				<td>37.6</td>
+			</tr>
+		
+			<tr>
+                <td>灼熱 Pt.2 Long Train Running</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>HYPER</td>
+                <td>1093</td>
+                <td>505</td>
+				<td></td>
+				<td>86.7</td>
+			</tr>
+		
+			<tr>
+                <td>Beat Juggling Mix</td>
+                <td>Hommarju</td>
+                <td>ANOTHER</td>
+                <td>1138</td>
+                <td>259</td>
+				<td></td>
+				<td>49.8</td>
+			</tr>
+		
+			<tr>
+                <td>BroGamer</td>
+                <td>USAO</td>
+                <td>ANOTHER</td>
+                <td>1568</td>
+                <td>236</td>
+				<td></td>
+				<td>24.4</td>
+			</tr>
+		
+			<tr>
+                <td>SAMURAI-Scramble</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>ANOTHER</td>
+                <td>1232</td>
+                <td>450</td>
+				<td></td>
+				<td>68.7</td>
+			</tr>
+		
+			<tr>
+                <td>Selfish Sweet</td>
+                <td>OSTER project feat. かなたん</td>
+                <td>LEGGENDARIA</td>
+                <td>1395</td>
+                <td>162</td>
+				<td></td>
+				<td>25.1</td>
+			</tr>
+		</tbody></table><h1>☆12</h1><table class="sortable-table">
+        <thead>
+            <tr>
+                <th data-column-index="0">曲名</th>
+                <th data-column-index="1">作曲</th>
+                <th data-column-index="2">難易度</th>
+                <th data-column-index="3">ノーツ数</th>
+                <th data-column-index="4">皿枚数</th>
+                <th data-column-index="5">皿割合</th>
+                <th data-column-index="6">皿度</th>
+            </tr>
+        </thead>
+        <tbody>
+	
+			<tr>
+                <td>Be quiet</td>
+                <td>Ryu☆</td>
+                <td>LEGGENDARIA</td>
+                <td>1463</td>
+                <td>398</td>
+				<td></td>
+				<td>54.3</td>
+			</tr>
+		
+			<tr>
+                <td>SCREAM SQUAD</td>
+                <td>CALF</td>
+                <td>ANOTHER</td>
+                <td>1073</td>
+                <td>152</td>
+				<td></td>
+				<td>20.2</td>
+			</tr>
+		
+			<tr>
+                <td>Concertino in Blue</td>
+                <td>佐々木博史</td>
+                <td>ANOTHER</td>
+                <td>1311</td>
+                <td>185</td>
+				<td></td>
+				<td>20.0</td>
+			</tr>
+		
+			<tr>
+                <td>KAMAITACHI</td>
+                <td>DJ TECHNORCH fw. GUHROOVY</td>
+                <td>LEGGENDARIA</td>
+                <td>2000</td>
+                <td>203</td>
+				<td></td>
+				<td>26.0</td>
+			</tr>
+		
+			<tr>
+                <td>Time to Air</td>
+                <td>青龍</td>
+                <td>LEGGENDARIA</td>
+                <td>1888</td>
+                <td>201</td>
+				<td></td>
+				<td>20.0</td>
+			</tr>
+		
+			<tr>
+                <td>TROOPERS</td>
+                <td>Des-TRACT</td>
+                <td>ANOTHER</td>
+                <td>1496</td>
+                <td>217</td>
+				<td></td>
+				<td>21.4</td>
+			</tr>
+		
+			<tr>
+                <td>3y3s</td>
+                <td>青龍</td>
+                <td>ANOTHER</td>
+                <td>1871</td>
+                <td>216</td>
+				<td></td>
+				<td>20.4</td>
+			</tr>
+		
+			<tr>
+                <td>Red. by Full Metal Jacket</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>ANOTHER</td>
+                <td>1643</td>
+                <td>483</td>
+				<td></td>
+				<td>87.5</td>
+			</tr>
+		
+			<tr>
+                <td>Watch Out Pt.2</td>
+                <td>DJ Mass MAD Izm* VS. DJ Yoshitaka</td>
+                <td>ANOTHER</td>
+                <td>1506</td>
+                <td>427</td>
+				<td></td>
+				<td>76.8</td>
+			</tr>
+		
+			<tr>
+                <td>灼熱Beach Side Bunny</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>ANOTHER</td>
+                <td>1719</td>
+                <td>667</td>
+				<td></td>
+				<td>98.2</td>
+			</tr>
+		
+			<tr>
+                <td>BLACK.by X-Cross Fade</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>ANOTHER</td>
+                <td>1738</td>
+                <td>521</td>
+				<td></td>
+				<td>101.8</td>
+			</tr>
+		
+			<tr>
+                <td>Snake Stick</td>
+                <td>DJ Yoshitaka VS. DJ Mass MAD Izm*</td>
+                <td>ANOTHER</td>
+                <td>1447</td>
+                <td>418</td>
+				<td></td>
+				<td>77.6</td>
+			</tr>
+		
+			<tr>
+                <td>The Sampling Paradise</td>
+                <td>Mamonis</td>
+                <td>ANOTHER</td>
+                <td>1545</td>
+                <td>181</td>
+				<td></td>
+				<td>24.5</td>
+			</tr>
+		
+			<tr>
+                <td>Plan 8</td>
+                <td>Ryu☆</td>
+                <td>ANOTHER</td>
+                <td>1690</td>
+                <td>392</td>
+				<td></td>
+				<td>81.5</td>
+			</tr>
+		
+			<tr>
+                <td>カジノファイヤーことみちゃん</td>
+                <td>ARM feat. 山本椛＋Brasscapsule</td>
+                <td>LEGGENDARIA</td>
+                <td>1777</td>
+                <td>280</td>
+				<td></td>
+				<td>25.9</td>
+			</tr>
+		
+			<tr>
+                <td>HYENA</td>
+                <td>Hommarju</td>
+                <td>LEGGENDARIA</td>
+                <td>1894</td>
+                <td>182</td>
+				<td></td>
+				<td>30.7</td>
+			</tr>
+		
+			<tr>
+                <td>INSOMNIA</td>
+                <td>ジャカルタファンクブラザーズ</td>
+                <td>ANOTHER</td>
+                <td>1661</td>
+                <td>189</td>
+				<td></td>
+				<td>45.6</td>
+			</tr>
+		
+			<tr>
+                <td>invoker</td>
+                <td>Caladborg</td>
+                <td>LEGGENDARIA</td>
+                <td>1851</td>
+                <td>231</td>
+				<td></td>
+				<td>28.9</td>
+			</tr>
+		
+			<tr>
+                <td>MAD ATTACK</td>
+                <td>HALFBY</td>
+                <td>LEGGENDARIA</td>
+                <td>1396</td>
+                <td>421</td>
+				<td></td>
+				<td>103.4</td>
+			</tr>
+		
+			<tr>
+                <td>Miracle 5ympho X</td>
+                <td>USAO</td>
+                <td>LEGGENDARIA</td>
+                <td>1551</td>
+                <td>472</td>
+				<td></td>
+				<td>115.8</td>
+			</tr>
+		
+			<tr>
+                <td>Sigmund</td>
+                <td>Gram</td>
+                <td>LEGGENDARIA</td>
+                <td>2267</td>
+                <td>132</td>
+				<td></td>
+				<td>33.0</td>
+			</tr>
+		
+			<tr>
+                <td>Sigmund</td>
+                <td>Gram</td>
+                <td>ANOTHER</td>
+                <td>2029</td>
+                <td>111</td>
+				<td></td>
+				<td>31.5</td>
+			</tr>
+		
+			<tr>
+                <td>VOX UP</td>
+                <td>sampling masters MEGA vs 青龍</td>
+                <td>ANOTHER</td>
+                <td>1870</td>
+                <td>254</td>
+				<td></td>
+				<td>23.7</td>
+			</tr>
+		
+			<tr>
+                <td>疾風迅雷</td>
+                <td>KUMOKIRI</td>
+                <td>LEGGENDARIA</td>
+                <td>1824</td>
+                <td>231</td>
+				<td></td>
+				<td>27.9</td>
+			</tr>
+		
+			<tr>
+                <td>廿</td>
+                <td>DJ TECHNORCH</td>
+                <td>LEGGENDARIA</td>
+                <td>1731</td>
+                <td>255</td>
+				<td></td>
+				<td>56.7</td>
+			</tr>
+		
+			<tr>
+                <td>BLUE MIRAGE</td>
+                <td>DJ CHUCKY</td>
+                <td>ANOTHER</td>
+                <td>1606</td>
+                <td>256</td>
+				<td></td>
+				<td>31.0</td>
+			</tr>
+		
+			<tr>
+                <td>FANTASTIC THREE</td>
+                <td>ジャカルタファンクブラザーズ</td>
+                <td>ANOTHER</td>
+                <td>1649</td>
+                <td>198</td>
+				<td></td>
+				<td>28.6</td>
+			</tr>
+		
+			<tr>
+                <td>Reflux</td>
+                <td>Eagle</td>
+                <td>ANOTHER</td>
+                <td>1574</td>
+                <td>176</td>
+				<td></td>
+				<td>32.5</td>
+			</tr>
+		
+			<tr>
+                <td>表裏一体!?怪盗いいんちょの悩み?</td>
+                <td>◇◆噂の怪盗少女 ぷらずま★彡Prim◇◆</td>
+                <td>LEGGENDARIA</td>
+                <td>2334</td>
+                <td>398</td>
+				<td></td>
+				<td>40.9</td>
+			</tr>
+		
+			<tr>
+                <td>AO-1</td>
+                <td>電龍</td>
+                <td>ANOTHER</td>
+                <td>1443</td>
+                <td>170</td>
+				<td></td>
+				<td>24.6</td>
+			</tr>
+		
+			<tr>
+                <td>Dynamite</td>
+                <td>USAO</td>
+                <td>ANOTHER</td>
+                <td>1953</td>
+                <td>365</td>
+				<td></td>
+				<td>45.2</td>
+			</tr>
+		
+			<tr>
+                <td>STARLIGHT DANCEHALL</td>
+                <td>P*Light</td>
+                <td>LEGGENDARIA</td>
+                <td>1712</td>
+                <td>220</td>
+				<td></td>
+				<td>28.7</td>
+			</tr>
+		
+			<tr>
+                <td>199024club -Re:BounceKiller-</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>ANOTHER</td>
+                <td>1260</td>
+                <td>438</td>
+				<td></td>
+				<td>121.9</td>
+			</tr>
+		
+			<tr>
+                <td>紫陽花 -AZISAI-</td>
+                <td>Camellia Vs. Expander</td>
+                <td>LEGGENDARIA</td>
+                <td>1815</td>
+                <td>220</td>
+				<td></td>
+				<td>29.5</td>
+			</tr>
+		
+			<tr>
+                <td>灼熱 Pt.2 Long Train Running</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>ANOTHER</td>
+                <td>1804</td>
+                <td>753</td>
+				<td></td>
+				<td>108.0</td>
+			</tr>
+		
+			<tr>
+                <td>真 地獄超特急 -HELL or HELL-</td>
+                <td>DJ TECHNORCH Vs. L.E.D.Light-G</td>
+                <td>ANOTHER</td>
+                <td>1727</td>
+                <td>345</td>
+				<td></td>
+				<td>57.3</td>
+			</tr>
+		
+			<tr>
+                <td>BroGamer</td>
+                <td>USAO</td>
+                <td>LEGGENDARIA</td>
+                <td>2383</td>
+                <td>295</td>
+				<td></td>
+				<td>24.3</td>
+			</tr>
+		
+			<tr>
+                <td>Caterpillar</td>
+                <td>Eagle</td>
+                <td>ANOTHER</td>
+                <td>1561</td>
+                <td>279</td>
+				<td></td>
+				<td>67.2</td>
+			</tr>
+		
+			<tr>
+                <td>GuNGNiR</td>
+                <td>Gram</td>
+                <td>LEGGENDARIA</td>
+                <td>2443</td>
+                <td>160</td>
+				<td></td>
+				<td>20.5</td>
+			</tr>
+		
+			<tr>
+                <td>GuNGNiR</td>
+                <td>Gram</td>
+                <td>ANOTHER</td>
+                <td>2081</td>
+                <td>150</td>
+				<td></td>
+				<td>22.1</td>
+			</tr>
+		
+			<tr>
+                <td>SAMURAI-Scramble</td>
+                <td>DJ Mass MAD Izm*</td>
+                <td>LEGGENDARIA</td>
+                <td>1576</td>
+                <td>690</td>
+				<td></td>
+				<td>130.1</td>
+			</tr>
+		
+			<tr>
+                <td>SAY BAY</td>
+                <td>P*Light</td>
+                <td>ANOTHER</td>
+                <td>1455</td>
+                <td>222</td>
+				<td></td>
+				<td>27.7</td>
+			</tr>
+		
+			<tr>
+                <td>焔極OVERKILL</td>
+                <td>RoughSketch Vs. L.E.D.-G</td>
+                <td>ANOTHER</td>
+                <td>1901</td>
+                <td>215</td>
+				<td></td>
+				<td>24.3</td>
+			</tr>
+		
+			<tr>
+                <td>〆</td>
+                <td>lapix</td>
+                <td>ANOTHER</td>
+                <td>1877</td>
+                <td>204</td>
+				<td></td>
+				<td>24.3</td>
+			</tr>
+		
+			<tr>
+                <td>?影</td>
+                <td>RoughSkreamZ feat.楽天斎</td>
+                <td>ANOTHER</td>
+                <td>1437</td>
+                <td>350</td>
+				<td></td>
+				<td>64.7</td>
+			</tr>
+		</tbody></table>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            
+            // ページ内にある "sortable-table" クラスを持つ全てのテーブルを取得
+            const sortableTables = document.querySelectorAll('.sortable-table');
+            
+            // 取得した各テーブルに対して、初期設定を行う
+            sortableTables.forEach(table => {
+                initializeSortableTable(table);
+            });
+
+            // テーブル1つを初期化する関数
+            function initializeSortableTable(table) {
+                const tbody = table.querySelector('tbody');
+                const headers = table.querySelectorAll('thead th');
+
+                // 1. スクラッチ割合の計算
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+                rows.forEach(row => {
+                    const cells = row.querySelectorAll('td');
+                    const notes = parseFloat(cells[3].textContent);
+                    const scratches = parseFloat(cells[4].textContent);
+
+                    if (!isNaN(notes) && !isNaN(scratches) && notes > 0) {
+                        const ratio = (scratches / notes) * 100;
+                        cells[5].textContent = ratio.toFixed(1) + ' %';
+                    }
+                });
+                
+                // 2. テーブルヘッダーをクリックした時のソート処理
+                headers.forEach(header => {
+                    header.addEventListener('click', function() {
+                        const columnIndex = parseInt(this.dataset.columnIndex, 10);
+                        const isAscending = this.classList.contains('sort-asc');
+                        
+                        sortTableByColumn(tbody, columnIndex, !isAscending);
+
+                        headers.forEach(h => h.classList.remove('sort-asc', 'sort-desc'));
+                        this.classList.toggle('sort-asc', !isAscending);
+                        this.classList.toggle('sort-desc', isAscending);
+                    });
+                });
+            }
+            
+            // 3. ソート機能の本体（変更なし）
+            function sortTableByColumn(tbody, columnIndex, asc = true) {
+                const dirModifier = asc ? 1 : -1;
+                const rows = Array.from(tbody.querySelectorAll('tr'));
+                const sortedRows = rows.sort((a, b) => {
+                    let aText = a.querySelector(`td:nth-child(${columnIndex + 1})`).textContent.trim();
+                    let bText = b.querySelector(`td:nth-child(${columnIndex + 1})`).textContent.trim();
+                    if ([3,4,5,6].includes(columnIndex)) {
+                        aText = parseFloat(aText) || 0;
+                        bText = parseFloat(bText) || 0;
+                    }
+                    if (aText < bText) return -1 * dirModifier;
+                    if (aText > bText) return 1 * dirModifier;
+                    return 0;
+                });
+
+                while (tbody.firstChild) {
+                    tbody.removeChild(tbody.firstChild);
+                }
+                tbody.append(...sortedRows);
+            }
+        });
+    </script>
+
+
+</body>
+</html>
